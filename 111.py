@@ -67,3 +67,7 @@ class DbMgr():
                     break
                 searcher = Searcher(keyword)
                 # 从数据库获取数据 data = mgr.get_data() res = pool.map_async(searcher.run, data, 10, callback=searcher.callback) # 等待所有进程执行完成 res.wait() print('all done', res.successful()) if __name__ == '__main__': main()
+    a=1
+    b=2
+    c=3
+    b*1
